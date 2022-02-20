@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   return (
-    <div className="flex w-full h-screen antialiased divide-x-[1px] divide-zinc-700 bg-zinc-900 standalone:pt-[50px] standalone:-top-[50px]" style={{WebkitTapHighlightColor: "transparent"}}>
+    <div className="flex w-full h-screen antialiased divide-x-[1px] divide-zinc-700 bg-zinc-900 standalone:absolute standalone:pt-[50px] standalone:-top-[50px]" style={{WebkitTapHighlightColor: "transparent"}}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no"  />
         <meta name="apple-mobile-web-app-capable" content="yes" />
