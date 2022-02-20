@@ -10,8 +10,9 @@ export default function MyApp({ Component, pageProps }) {
     <div className="flex w-full h-screen antialiased divide-x-[1px] divide-zinc-700 bg-zinc-900" style={{WebkitTapHighlightColor: "transparent"}}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"  />
-
         <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="back-translucent" />
+        <link rel="manifest" href="/site.webmanifest" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -30,7 +31,6 @@ export default function MyApp({ Component, pageProps }) {
           href="favicon-16x16.png"
         />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="manifest" href="/site.webmanifest" />
         <link rel="apple-touch-icon" href="apple-icon-180.png" />
 
         <link
