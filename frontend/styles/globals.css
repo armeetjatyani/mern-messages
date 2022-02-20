@@ -9,6 +9,9 @@
   scrollbar-width: none;
 }
 
-.example::-webkit-scrollbar {
+::-webkit-scrollbar {
+  display: none;
+}
+*::-webkit-scrollbar {
   display: none;
 }
