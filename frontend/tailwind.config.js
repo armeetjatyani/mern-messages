@@ -6,7 +6,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        standalone: { raw: "(display-mode: standalone)" },
+      },
+    },
   },
   plugins: [
     plugin(function ({ addVariant, e, postcss }) {
