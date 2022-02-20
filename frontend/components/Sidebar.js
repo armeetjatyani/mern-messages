@@ -79,7 +79,7 @@ export default function Sidebar({ active }) {
         <motion.div
           layout
           key="sidebarbutton"
-          className="absolute px-2 py-2 mt-3 ml-5 transition-colors duration-200 rounded-full hover:text-white hover:bg-zinc-700 text-zinc-300"
+          className="absolute px-2 py-2 mt-3 ml-5 transition-colors duration-200 rounded-full hover:text-white bg-zinc-700 text-zinc-300"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
