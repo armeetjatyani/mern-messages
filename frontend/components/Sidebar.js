@@ -23,7 +23,7 @@ export default function Sidebar({ active }) {
           key="sidebar"
         >
           <div className="w-full h-full p-2 overflow-y-scroll">
-            <div className="flex items-center justify-between mx-1">
+            <div className="sticky top-0 z-10 flex items-center justify-between p-2 mx-1 rounded-md bg-zinc-700/40 backdrop-filter backdrop-blur-md">
               <Link href="/">
                 <a className="text-sm text-zinc-500 hover:text-zinc-300">
                   Messages
